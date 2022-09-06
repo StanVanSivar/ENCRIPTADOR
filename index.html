@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Encriptar</title>
+</head>
+<body>
+    <header>
+        <img src="recursos/imagenes/logo.png" alt="Este es el logo">
+    </header>    
+    <main>
+        <section>
+        <textarea class="input-texto" col="40" row="8" id="input-texto" placeholder="Ingrese el texto a encriptar aca"></textarea>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" col="40" row="8" placeholder="Aqui aparecera el resultado"></textarea>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
